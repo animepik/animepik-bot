@@ -1,2 +1,3 @@
-from gino import Gino
-db = Gino()
+from .chat import Chat  # noqa
+from .chat_member import ChatMember  # noqa
+from .user import User  # noqa
